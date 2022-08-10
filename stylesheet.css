@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    width: 375px;
+    height: 621px;
+    margin: 100px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo {
+    width: 120px;
+    height: 65px;
+    margin: 15px;
+    padding: 0;
+}
+
+.my-avatar,
+.avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.my-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: pink;
+    color: #fff;
+}
+
+.account-info {
+    display: flex;
+    height: 56px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 10px;
+    width: 34px;
+    height: 34px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 56px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.location-text {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.img-van-gogh {
+    display: block;
+    width: 375px;
+    height: 375px;
+}
+
+.post-info {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 114px;
+}
+
+.icon-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 0 10px;
+    width: 25%;
+}
+
+.icon-heart {
+    width: 22px;
+    height: 23px;
+}
+
+.icon-comment {
+    width: 22px;
+    height: 22px;
+}
+
+.icon-dm {
+    width: 22px;
+    height: 21px;
+}
+
+div .bold-text {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 10px 0 0 10px;
+}
